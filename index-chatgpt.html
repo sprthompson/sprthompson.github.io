@@ -50,3 +50,115 @@
 
         section {
             padding: 4em 1em;
+            background-color: #ffffff;
+            margin-top: -5em;
+            border-radius: 50px 50px 0 0;
+        }
+
+        section h2 {
+            font-size: 2rem;
+            color: #1e90ff;
+            margin-bottom: 1em;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 2em;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            max-width: 300px;
+            margin: 1em;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card h3 {
+            font-size: 1.5rem;
+            color: #333;
+            margin-bottom: 0.5em;
+        }
+
+        .card p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .links {
+            margin-top: 3em;
+        }
+
+        .links a {
+            text-decoration: none;
+            color: white;
+            background-color: #1e90ff;
+            padding: 15px 30px;
+            border-radius: 25px;
+            margin: 0 10px;
+            font-size: 1.1rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .links a:hover {
+            background-color: #007acc;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 2em 0;
+            margin-top: 2em;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My World</h1>
+        <p>Explore. Create. Connect.</p>
+    </header>
+
+    <section>
+        <h2>Featured Projects</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Project 1: Portfolio Website</h3>
+                <p>A sleek personal website to showcase my skills and projects. Built with HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="card">
+                <h3>Project 2: E-commerce Store</h3>
+                <p>An online store prototype using modern e-commerce platforms. Fully responsive and interactive.</p>
+            </div>
+            <div class="card">
+                <h3>Project 3: Travel Blog</h3>
+                <p>A travel blog built for adventure seekers. Features dynamic content, comments, and search functionality.</p>
+            </div>
+        </div>
+
+        <div class="links">
+            <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+            <a href="https://twitter.com/yourhandle" target="_blank">Twitter</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
