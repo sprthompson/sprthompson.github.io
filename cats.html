@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posh Camping for Cats | Luxury Outdoor Experiences</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        
+        .header {
+            background-color: #1a472a;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .tagline {
+            font-style: italic;
+            font-size: 18px;
+        }
+        
+        .navigation {
+            background-color: #2a623d;
+            padding: 10px 0;
+            text-align: center;
+        }
+        
+        .navigation a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        
+        .navigation a:hover {
+            text-decoration: underline;
+        }
+        
+        .main-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 30px;
+        }
+        
+        .hero {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .hero h1 {
+            font-size: 32px;
+            color: #1a472a;
+            margin-bottom: 20px;
+        }
+        
+        .hero p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background-color: #c19a6b;
+            color: #fff;
+            padding: 12px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 40px;
+        }
+        
+        .feature {
+            flex-basis: 30%;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+        
+        .feature h2 {
+            color: #1a472a;
+            font-size: 22px;
+            margin-bottom: 15px;
+        }
+        
+        .feature p {
+            line-height: 1.5;
+        }
+        
+        .testimonials {
+            background-color: #e8f4ea;
+            padding: 40px;
+            border-radius: 5px;
+            margin-bottom: 40px;
+        }
+        
+        .testimonial {
+            margin-bottom: 30px;
+            cursor: pointer;
+        }
+        
+        .testimonial-text {
+            font-style: italic;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        
+        .testimonial-author {
+            font-weight: bold;
+            text-align: right;
+        }
+        
+        .footer {
+            background-color: #1a472a;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        
+        .footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            cursor: pointer;
+        }
+        
+        /* April Fools Modal */
+        .april-fools-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.7);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .modal-content {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            text-align: center;
+            max-width: 500px;
+            animation: bounce 0.5s;
+        }
+        
+        .modal-content h2 {
+            font-size: 40px;
+            color: #e63946;
+            margin-bottom: 20px;
+        }
+        
+        .modal-content p {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .close-button {
+            display: inline-block;
+            background-color: #1a472a;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        
+        @keyframes bounce {
+            0% { transform: scale(0.5); }
+            70% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+        
+        .placeholder-image {
+            width: 100%;
+            height: 200px;
+            background-color: #c19a6b;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-weight: bold;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">PoshCampingForCats.co.uk</div>
+        <div class="tagline">Luxury Outdoor Experiences for Discerning Felines</div>
+    </div>
+    
+    <div class="navigation">
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Our Camps</a>
+        <a href="#">Testimonials</a>
+        <a href="#">Book Now</a>
+        <a href="#">Contact</a>
+    </div>
+    
+    <div class="main-content">
+        <div class="hero">
+            <h1>Welcome to the Ultimate Camping Experience for Sophisticated Cats</h1>
+            <p>At Posh Camping for Cats, we believe your feline friend deserves the very best outdoor adventure. Our luxury camping sites are designed specifically for cats who appreciate the finer things in life whilst enjoying the great outdoors.</p>
+            <div class="placeholder-image" style="height: 400px;"><img src="https://hourbuilding.co.uk/catcamping.png" alt="Cat Camping" style="width: 100%; height: 400px; object-fit: cover; border-radius: 5px; margin-bottom: 15px;"></div>
+            <a class="cta-button">Book Your Cat's Holiday Today</a>
+        </div>
+        
+        <div class="features">
+            <div class="feature">
+                <div class="placeholder-image">Luxury Tents</div>
+                <h2>Luxury Canvas Tents</h2>
+                <p>Our handcrafted tents feature plush bedding, temperature control, and gourmet feeding stations. Each tent includes a scratching post made from sustainable wood.</p>
+            </div>
+            
+            <div class="feature">
+                <div class="placeholder-image">Gourmet Dining</div>
+                <h2>Five-Star Dining</h2>
+                <p>Our resident chef prepares fresh fish, organic meats, and locally sourced cream daily. All meals are served on fine china with purified water in crystal bowls.</p>
+            </div>
+            
+            <div class="feature">
+                <div class="placeholder-image">Activities</div>
+                <h2>Curated Activities</h2>
+                <p>From bird-watching platforms to butterfly gardens, we offer stimulating activities designed for the curious cat. Our climbing trees are imported from the finest forests.</p>
+            </div>
+        </div>
+        
+        <div class="testimonials">
+            <h2>What Our Feline Guests Say</h2>
+            
+            <div class="testimonial">
+                <div class="testimonial-text">"Simply the most exhilarating camping experience of my nine lives. The staff remembered that I prefer my water slightly chilled and my bed fluffed twice daily."</div>
+                <div class="testimonial-author">- Sir Whiskers of Kensington</div>
+            </div>
+            
+            <div class="testimonial">
+                <div class="testimonial-text">"The countryside views from my private tent were spectacular. I particularly enjoyed the heated perching platforms for observing wildlife."</div>
+                <div class="testimonial-author">- Lady Mittens of Chelsea</div>
+            </div>
+            
+            <div class="testimonial">
+                <div class="testimonial-text">"As a Siamese of distinguished lineage, I have high standards. Posh Camping exceeded them all. The nightly milk and cookies turndown service was a delightful touch."</div>
+                <div class="testimonial-author">- Duke Purrington III</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>&copy; 2025 Posh Camping for Cats. All Rights Reserved.</p>
+        <div>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">FAQ</a>
+            <a href="#">Careers</a>
+        </div>
+    </div>
+    
+    <!-- April Fools Modal -->
+    <div class="april-fools-modal" id="aprilFoolsModal">
+        <div class="modal-content">
+            <h2>APRIL FOOLS!</h2>
+            <p>Cats hate camping. They prefer luxury apartments with servants, not tents!</p>
+            <button class="close-button" id="closeModal">Close</button>
+        </div>
+    </div>
+    
+    <script>
+        // Make everything clickable trigger the April Fools modal
+        document.addEventListener('DOMContentLoaded', function() {
+            const modal = document.getElementById('aprilFoolsModal');
+            const closeButton = document.getElementById('closeModal');
+            
+            // Add click event to all clickable elements
+            const clickableElements = document.querySelectorAll('a, .cta-button, .feature, .testimonial');
+            clickableElements.forEach(element => {
+                element.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    modal.style.display = 'flex';
+                });
+            });
+            
+            // Close modal when close button is clicked
+            closeButton.addEventListener('click', function() {
+                modal.style.display = 'none';
+            });
+            
+            // Close modal when clicking outside the modal content
+            modal.addEventListener('click', function(e) {
+                if (e.target === modal) {
+                    modal.style.display = 'none';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
